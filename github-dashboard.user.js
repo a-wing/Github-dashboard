@@ -3,10 +3,12 @@
 // @author          a-wing
 // @version  				1
 // @grant    				none
-// @include         https://github.com/
+// @include         https://github.com/*
 // ==/UserScript==
 
 (function () {
-  document.getElementsByClassName("dashboard-sidebar")[0].style.cssFloat= "right"
+  var element = document.getElementsByClassName("dashboard-sidebar");
+    if(element[0] !== undefined) {
+        element[0].style.cssFloat= "right";
+    }
 })()
-
