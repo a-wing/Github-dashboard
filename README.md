@@ -1,6 +1,10 @@
 # Github-dashboard
 Github 仪表盘 侧边栏 靠右的油猴子脚本
 
+![github.png](github.png)
+
+
+
 
 1. 新建一个油猴子脚本
 2. 把`github.js`的内容复制到油猴子脚本里并启用
