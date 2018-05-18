@@ -8,9 +8,7 @@
 
 (function () {
   var element = document.getElementsByClassName("dashboard-sidebar");
-    console.log(element[0]);
     if(element[0] !== undefined) {
         element[0].style.cssFloat= "right";
     }
 })()
-
