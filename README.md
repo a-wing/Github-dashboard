@@ -5,13 +5,14 @@ Github 仪表盘 侧边栏 靠右的油猴子脚本
 
 
 
+### Install
 
-1. 新建一个油猴子脚本
-2. 把`github.js`的内容复制到油猴子脚本里并启用
+https://greasyfork.org/zh-CN/scripts/368168-github-dashboard-sidebar-right
+
+
 
 
 > 第一次写油猴子脚本哈。。。。不足之处请多指出
-
 
 
 
