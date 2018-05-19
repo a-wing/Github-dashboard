@@ -6,9 +6,4 @@
 // @include         https://github.com/*
 // ==/UserScript==
 
-(function () {
-  var element = document.getElementsByClassName("dashboard-sidebar");
-    if(element[0] !== undefined) {
-        element[0].style.cssFloat= "right";
-    }
-})()
+document.querySelector('.dashboard-sidebar')?document.querySelector('.dashboard-sidebar').style.cssFloat = 'right':null;
